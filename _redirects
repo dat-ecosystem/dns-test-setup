@@ -1,0 +1,12 @@
+/.well-known/dat-301         /.well-known/dat              301
+/.well-known/dat-302         /.well-known/dat              302
+/.well-known/dat-307         /.well-known/dat              307
+/.well-known/dat-308         /.well-known/dat              308
+
+# redirect to invalid data
+/.well-known/dat-301         /.well-known/dat-invalid      301
+
+# multiple redirects
+/.well-known/dat-hop-1       /.well-known/dat-301          302
+/.well-known/dat-hop-2       /.well-known/dat-hop-1        307
+/.well-known/dat-hop-3       /.well-known/dat-hop-2        308
