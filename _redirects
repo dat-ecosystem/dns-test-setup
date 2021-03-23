@@ -1,14 +1,24 @@
+# Testing domain level redirects
 https://dns-test-setup-2.dat-ecosystem.org/* https://dns-test-setup.dat-ecosystem.org/:splat 301!
 
-/.well-known/dat-301         /.well-known/dat-nr-2         301
-/.well-known/dat-302         /.well-known/dat-nr-2         302
-/.well-known/dat-307         /.well-known/dat-nr-2         307
-/.well-known/dat-308         /.well-known/dat-nr-2         308
+# multiple redirects
+/.well-known/dat-hop-3               /.well-known/dat-hop-2              308
+/.well-known/dat-hop-2               /.well-known/dat-hop-1              307
+/.well-known/dat-hop-1               /.well-known/dat-301                302
+
+# standard redirects
+/.well-known/dat-301                 /.well-known/dat-nr-2               301
+/.well-known/dat-302                 /.well-known/dat-nr-2               302
+/.well-known/dat-307                 /.well-known/dat-nr-2               307
+/.well-known/dat-308                 /.well-known/dat-nr-2               308
+
+# multi-hop to invalid
+/.well-known/dat-invalid-hop-3       /.well-known/dat-invalid-hop-2      308
+/.well-known/dat-invalid-hop-2       /.well-known/dat-invalid-hop-1      307
+/.well-known/dat-invalid-hop-1       /.well-known/dat-invalid-301        302
 
 # redirect to invalid data
-/.well-known/dat-301         /.well-known/dat-invalid      301
-
-# multiple redirects
-/.well-known/dat-hop-1       /.well-known/dat-301          302
-/.well-known/dat-hop-2       /.well-known/dat-hop-1        307
-/.well-known/dat-hop-3       /.well-known/dat-hop-2        308
+/.well-known/dat-invalid-301         /.well-known/dat-invalid            301
+/.well-known/dat-invalid-302         /.well-known/dat-invalid            302
+/.well-known/dat-invalid-307         /.well-known/dat-invalid            307
+/.well-known/dat-invalid-308         /.well-known/dat-invalid            308
