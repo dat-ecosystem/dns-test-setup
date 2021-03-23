@@ -1,7 +1,7 @@
-/.well-known/dat-301         /.well-known/dat              301
-/.well-known/dat-302         /.well-known/dat              302
-/.well-known/dat-307         /.well-known/dat              307
-/.well-known/dat-308         /.well-known/dat              308
+/.well-known/dat-301         /.well-known/dat-nr-2         301
+/.well-known/dat-302         /.well-known/dat-nr-2         302
+/.well-known/dat-307         /.well-known/dat-nr-2         307
+/.well-known/dat-308         /.well-known/dat-nr-2         308
 
 # redirect to invalid data
 /.well-known/dat-301         /.well-known/dat-invalid      301
