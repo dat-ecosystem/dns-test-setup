@@ -1,3 +1,5 @@
+https://dns-test-setup-2.dat-ecosystem.org/* https://dns-test-setup.dat-ecosystem.org/:splat 301!
+
 /.well-known/dat-301         /.well-known/dat-nr-2         301
 /.well-known/dat-302         /.well-known/dat-nr-2         302
 /.well-known/dat-307         /.well-known/dat-nr-2         307
