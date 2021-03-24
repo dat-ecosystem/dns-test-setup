@@ -22,3 +22,9 @@ https://dns-test-setup-2.dat-ecosystem.org/* https://dns-test-setup.dat-ecosyste
 /.well-known/dat-invalid-302         /.well-known/dat-invalid            302
 /.well-known/dat-invalid-307         /.well-known/dat-invalid            307
 /.well-known/dat-invalid-308         /.well-known/dat-invalid            308
+
+# http redirect
+/.well-known/http-redirect           http://dat-ecosystem.org/           301
+
+# invalid redirect
+/.well-known/invalid-redirect-2      /.well-known/invalid-redirect       301

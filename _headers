@@ -1,6 +1,2 @@
-/.well-known/http-redirect
-  Status: 301
-  location: http://dat-ecosystem.org/
-/.well-known/invalid-redirect
-  Status: 301
+/.well-known/invalid-redirect-2
   location:
