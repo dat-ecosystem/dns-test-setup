@@ -2,7 +2,7 @@
   Status: 404
 
 /.well-known/dat
-  Access-Control-Allow-Origin = "*"
+  Access-Control-Allow-Origin: "*"
 
 /.well-known/dat-nr-2
-  Access-Control-Allow-Origin = "*"
+  Access-Control-Allow-Origin: "*"
