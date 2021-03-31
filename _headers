@@ -3,6 +3,8 @@
 
 /.well-known/dat
   Access-Control-Allow-Origin: "*"
+  Vary: Origin
 
 /.well-known/dat-nr-2
   Access-Control-Allow-Origin: "*"
+  Vary: Origin
