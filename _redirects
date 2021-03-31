@@ -28,3 +28,7 @@ https://dns-test-setup-2.dat-ecosystem.org/* https://dns-test-setup.dat-ecosyste
 
 # invalid redirect
 /.well-known/invalid-redirect-2      /.well-known/invalid-redirect       301
+
+# server error
+/.well-known/server-error            /.well-known/invalid-redirect       500
+/.well-known/404                     /.well-known/invalid-redirect       404

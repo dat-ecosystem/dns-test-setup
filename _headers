@@ -1,2 +1,5 @@
 /.well-known/invalid-redirect-2
-  location:
+  Status: 404
+
+/*
+  Access-Control-Allow-Origin = "*"
